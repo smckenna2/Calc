@@ -66,6 +66,21 @@ Suggested next steps once you are ready to wire up the real calculator:
 
 Feel free to tailor these steps to your team's workflow; they serve as a lightweight roadmap.
 
+### Baseline ROI Formula
+
+When you wire up the calculator logic, the conventional ROI equation is:
+
+```
+ROI (%) = ((Total Benefit - Total Cost) / Total Cost) × 100
+```
+
+For AI initiatives you might define:
+
+- **Total Benefit**: automation savings, new revenue, reduced churn, or other measurable gains.
+- **Total Cost**: model development, infrastructure, data labeling, compliance, and ongoing MLOps expenses.
+
+Document the assumptions you choose so stakeholders know how to interpret the output.
+
 ## Deployment
 
 The output of `npm run build` is a static site that can be hosted on services such as Vercel, Netlify, AWS Amplify, or any static file server. CRA includes sensible defaults for caching and asset hashing; add CI/CD to automate deployment when you are ready.
